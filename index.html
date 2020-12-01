@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Form Validation</title>
+</head>
+<body class="bg-primary">
+    <form action="#" method="post" id="validateForm">
+        <div class="w-55 h-80 m-auto bg-white rounded-md mt-10">
+            <div class="grid-container rounded-md">
+                <div class="grid">
+                    <div class="flex-column mx-10 my-10 p-5">
+                        <label for="email" class="font-weight-bold mb-5">Email address:</label>
+                        <input type="text" class="form-control h-20" placeholder="Enter email" id="email">
+                        <span class="error-block"></span>
+                    </div>
+    
+                    <div class="flex-column mx-10 my-10 p-5">
+                        <label for="fullName" class="font-weight-bold mb-5">Full Name:</label>
+                        <input type="text" class="form-control h-20" placeholder="Enter full name" id="fullName">
+                        <span class="error-block"></span>
+                    </div>
+    
+                    <div class="flex-column mx-10 my-10 p-5">
+                        <label for="year" class="font-weight-bold mb-5">Year of Birth:</label>
+                        <input type="text" class="form-control h-20" placeholder="Enter year of birth" id="year">
+                        <span class="error-block"></span>
+                    </div>
+                </div>
+    
+                <div class="grid">
+                    <div class="flex-column mx-10 my-10 p-5">
+                        <label for="password" class="font-weight-bold mb-5">Password:</label>
+                        <input type="password" class="form-control h-20" placeholder="Enter password" id="password">
+                        <span class="error-block"></span>
+                    </div>
+    
+                    <div class="flex-column mx-10 my-10 p-5">
+                        <label for="phoneNumber" class="font-weight-bold mb-5">Phone Number:</label>
+                        <input type="text" class="form-control h-20" placeholder="Enter phone number" id="phoneNumber">
+                        <span class="error-block"></span>
+                    </div>
+    
+                    <div class="flex-column mx-10 my-10 p-5">
+                        <label for="gender" class="font-weight-bold mb-5">Select Gender:</label>
+                        <select class="form-control h-20" id="gender">
+                            <option value="">Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        <span class="error-block"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="flex-column w-80 mx-10 my-10 p-5 ">
+                    <label for="bio" class="font-weight-bold mb-5">Bio:</label>
+                    <textarea class="form-control" rows="8" id="bio"></textarea>
+                    <span class="error-block"></span>
+                </div>
+            </div>
+            
+            <div class="">
+                <button type="submit" class="btn btn-success txt-white md-txt px-10 py-10 ml-12 rounded-sm">Submit</button>
+            </div>
+        </div>
+    </form>
+    <script src="/js/main.js"></script>
+</body>
+</html>

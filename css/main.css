@@ -1,0 +1,132 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body,
+ html {
+     font-family: 'arial';
+ }
+
+ button {
+     border: none;
+ }
+
+ .error-block {
+    font-size: 12px;
+    color: red;
+}
+
+/* canvas */
+.bg-primary {
+    background-color: grey;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.txt-white {
+    color: #ffffff;
+}
+
+.md-txt {
+    font-size: 1rem;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.rounded-sm {
+    border-radius: .25rem;
+}
+
+.rounded-md {
+    border-radius: .3rem;
+}
+
+.btn-success {
+    background-color: #1fad3b;
+}
+
+/* utilities */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid white;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* spacing */
+.m-auto {
+    margin: auto;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.w-100 {
+    width: 80%;
+}
+
+.h-20 {
+    height: 2rem;
+}
+
+.h-80 {
+    height: 80vh;
+}
+
+.mx-10 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.my-10 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mt-10 {
+    margin-top: 2rem;
+}
+
+.mb-5 {
+    margin-bottom: .33rem;
+}
+
+.ml-12 {
+    margin-left: 1.25rem;
+}
+
+.p-5 {
+    padding: .25rem;
+}
+
+.p-10 {
+    padding: 1rem;
+}
+
+.px-10 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.py-10 {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+
